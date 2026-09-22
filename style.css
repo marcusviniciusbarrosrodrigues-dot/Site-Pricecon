@@ -167,13 +167,16 @@ a {
 .hero-card {
     position: relative;
     background: #1c1530;
-    color: #fff;
+    color: #ffffff;
     border-radius: 28px;
     padding: 30px;
     box-shadow: 0 25px 60px #24143c24;
     overflow: hidden
 }
-
+.hero-card p{
+    color: #c98dfa;
+    font-size: 20px;
+}
 .hero-card:before {
     content: "";
     position: absolute;
