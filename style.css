@@ -54,9 +54,22 @@ a {
     gap: 24px
 }
 .navin img {
-    width: px;
+    width: 40px;
     height: 40px;
     object-fit: cover
+}
+
+.navin span{
+    font-size: 16px;
+    color: var(--orange);
+    font-weight: 900
+}
+
+.navin span small {
+    font-size: 10px;
+    color: var(--purple);
+    font-weight: 600;
+
 }
 .brand {
     display: flex;
